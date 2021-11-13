@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	
+	<!-- title -->
+	
+	<title>
+	
+		1 | 
+	 
+	wiki
+	</title>
+	
+	<!-- keywords,description -->
+	 
+		<meta name="description" content="队长的漏洞库" />
+	
+
+	<!-- favicon -->
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
+
+
+	<!-- search -->
+	<script>
+		var searchEngine = "https://www.google.com/search?q=";
+		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
+			searchEngine = "https://www.google.com/search?q=";
+		}
+		var homeHost = "wujun234.github.io";
+		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
+			homeHost = window.location.host;
+		}
+	</script>
+
+
+	
+<link rel="stylesheet" href="/css/main.css">
+
+	
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/darcula.min.css">
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+
+	
+<script src="/js/main.js"></script>
+
+	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@v1.4.14/dist/Valine.min.js"></script>
+
+	
+	
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3efe99c287df5a1d6f0d02d187e403c1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<header id="header">
+    <a id="title" href="/" class="logo">wiki</a>
+
+	<ul id="menu">
+		<li class="menu-item">
+			<a href="/about" class="menu-item-link">ABOUT</a>
+		</li>
+	
+		<li class="menu-item">
+			<a href="/tags" class="menu-item-link">标签</a>
+		</li>
+	
+
+	
+		<li class="menu-item">
+			<a href="/categories" class="menu-item-link">分类</a>
+		</li>
+	
+
+		<li class="menu-item">
+			<a href="https://github.com/wujun234/uid-generator-spring-boot-starter" class="menu-item-link" target="_blank">
+				UidGenerator
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="https://github.com/wujun234" class="menu-item-link" target="_blank">
+				<i class="fa fa-github fa-2x"></i>
+			</a>
+		</li>
+	</ul>
+</header>
+
+	
+<div id="sidebar">
+	<button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button>
+	
+	<div id="site-toc">
+		<input id="search-input" class="search-input" type="search" placeholder="按回车全站搜索">
+		<div id="tree">
+			
+
+			
+							<ul>
+								<li class="file active">
+									<a href="/2021/11/13/1/">
+										1
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/11/13/hello-world/">
+										hello-world
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+		</div>
+	</div>
+</div>
+
+	<!-- 引入正文 -->
+	<div id="content">
+		<h1 id="article-title">
+	1
+</h1>
+<div class="article-meta">
+	
+	<span>duizhang</span>
+	<span>2021-11-13 17:18:55</span>
+		<div id="article-categories">
+    
+		<span>Categories：</span>
+            
+    
+
+    
+		<span>Tags：</span>
+            
+    
+		</div>
+
+</div>
+
+<div id="article-content">
+	<h1 id="系统环境"><a href="#系统环境" class="headerlink" title="系统环境"></a>系统环境</h1><h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><pre><code>sudo apt-get upgrade
+sudo apt-get update
+</code></pre>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h3><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><pre><code>#安装mysql
+$ apt-get install mysql-server
+
+#启动和关闭mysql服务器：
+$ service mysql start
+$ service mysql stop
+
+# 确认是否启动成功，mysql节点处于LISTEN状态表示启动成功：
+$ sudo netstat -tap | grep mysql
+
+# 进入mysql shell界面：
+$ mysql -u root -p
+
+# 解决利用sqoop导入MySQL中文乱码的问题（可以插入中文，但不能用sqoop导入中文）
+可以单个设置修改编码方式set character_set_server=utf8;但是重启会失效，建议按以下方式修改编码方式。
+(1)编辑配置文件。
+$ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+(2)在[mysqld]下添加一行
+$  character_set_server=utf8
+(3)重启MySQL服务。
+$ service mysql restart
+(4)登陆MySQL，并查看MySQL目前设置的编码。
+$ show variables like &quot;char%&quot;;
+</code></pre>
+<h4 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h4><pre><code># 创建用户
+CREATE USER &#39;duizhang&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;123456&#39;;
+
+# 授权
+GRANT ALL ON wiki.* TO duizhang@&#39;localhost&#39;;
+
+# 查看用户权限
+show grants for duizhang;
+</code></pre>
+<h4 id="数据库操作"><a href="#数据库操作" class="headerlink" title="数据库操作"></a>数据库操作</h4><pre><code># 创建数据库
+create DATABASE wiki;
+
+# 查询用户
+SELECT User, Host FROM mysql.user;
+
+</code></pre>
+<h1 id="WIKI"><a href="#WIKI" class="headerlink" title="WIKI"></a>WIKI</h1><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><pre><code># 创建目录
+$ mkdir wiki
+$ cd wiki
+# 以 linux amd64 为例，下载最新版本压缩包
+$ wget https://github.com/phachon/mm-wiki/releases/download/v0.2.1/mm-wiki-v0.2.1-linux-amd64.tar.gz
+# 解压到当前目录
+$ tar -zxvf mm-wiki-v0.2.1-linux-amd64.tar.gz
+# 进入程序安装目录
+$ cd install
+# 执行安装程序，默认端口为 8090，指定其他端口加参数 --port=8087
+$ ./install
+# 浏览器访问 http://ip:8090 进入安装界面，完成安装配置
+# Ctrl + C 停止 install 程序, 启动 MM-Wiki 系统
+$ cd ..
+$ ./mm-wiki --conf conf/mm-wiki.conf
+# 浏览器访问你监听的 ip 和端口
+# 开始 MM-Wiki 的使用之旅吧！
+</code></pre>
+<h3 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h3><p>浏览器访问 <a target="_blank" rel="noopener" href="http://ip:8090/">http://ip:8090</a> 进入安装界面，完成安装配置</p>
+<p><img src="https://gitee.com/xxynly/hexo-image/raw/master/image/image-202111131215304122021%2011%2013%2012%2015%20.png" alt="image-20211113121530412"></p>
+<p><img src="https://gitee.com/xxynly/hexo-image/raw/master/image/image-202111131215578992021%2011%2013%2012%2015%20.png" alt="image-20211113121557899"></p>
+<p><img src="https://gitee.com/xxynly/hexo-image/raw/master/image/image-202111131216174862021%2011%2013%2012%2016%20.png" alt="image-20211113121617486"></p>
+<p><img src="https://gitee.com/xxynly/hexo-image/raw/master/image/image-202111131216468872021%2011%2013%2012%2016%20.png" alt="image-20211113121646887"></p>
+<p>把数据库配置好，然后填入上方</p>
+<p><img src="https://gitee.com/xxynly/hexo-image/raw/master/image/image-202111131233556922021%2011%2013%2012%2033%20.png" alt="image-20211113123355692"></p>
+<p>成功</p>
+<p><img src="https://gitee.com/xxynly/hexo-image/raw/master/image/image-202111131251151142021%2011%2013%2012%2051%20.png" alt="image-20211113125115114"></p>
+<pre><code>启动命令： ./mm-wiki --conf conf/mm-wiki.conf
+访问地址：http://127.0.0.1:8080
+</code></pre>
+<h2 id="nginx"><a href="#nginx" class="headerlink" title="nginx"></a>nginx</h2><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><pre><code>apt-get install nginx
+nginx -v
+service nginx start
+</code></pre>
+<pre><code>nginx文件安装完成之后的文件位置：
+
+/usr/sbin/nginx：主程序
+/etc/nginx：存放配置文件
+/usr/share/nginx：存放静态文件
+/var/log/nginx：存放日志
+</code></pre>
+<h3 id="反代配置"><a href="#反代配置" class="headerlink" title="反代配置"></a>反代配置</h3><h4 id="1-配置https"><a href="#1-配置https" class="headerlink" title="1. 配置https"></a>1. 配置https</h4><h5 id="1-安装openssl相关软件"><a href="#1-安装openssl相关软件" class="headerlink" title="1. 安装openssl相关软件"></a>1. 安装openssl相关软件</h5><pre><code class="csharp">sudo apt-get install openssl*
+</code></pre>
+<h5 id="2-颁发证书给自己"><a href="#2-颁发证书给自己" class="headerlink" title="2. 颁发证书给自己"></a>2. 颁发证书给自己</h5><pre><code class="bash">openssl genrsa -des3 -out server.key 1024            # 用于生成rsa私钥文件
+
+openssl req -new -key server.key -out server.csr     # openssl req 用于生成证书请求
+
+openssl rsa -in server.key -out server_nopwd.key     #利用openssl进行RSA为公钥加密
+
+openssl x509 -req -days 365 -in server.csr -signkey server_nopwd.key -out server.crt
+
+mv server.crt server_nopwd.key /etc/nginx
+</code></pre>
+<h4 id="2-在-conf-d目录下新建-reve-conf文件"><a href="#2-在-conf-d目录下新建-reve-conf文件" class="headerlink" title="2. 在 conf.d目录下新建 reve.conf文件"></a>2. 在 conf.d目录下新建 reve.conf文件</h4><pre><code class="nginx">upstream frontends &#123;
+    server 127.0.0.1:8080; # MM-Wiki 监听的ip:port
+&#125;
+server &#123;
+    listen      80;
+    server_name wiki.dui zhang.fun www.wiki.duizhang.fun;
+    location / &#123;
+        proxy_pass_header Server;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Scheme $scheme;
+        proxy_pass http://frontends;
+    &#125;
+    # 静态资源交由nginx管理
+    location /static &#123;
+        root        /www/mm-wiki; # MM-Wiki 的根目录
+        expires     1d;
+        add_header  Cache-Control public;
+        access_log  off;
+    &#125;
+&#125;
+</code></pre>
+<h4 id="3-重新启动nginx"><a href="#3-重新启动nginx" class="headerlink" title="3. 重新启动nginx"></a>3. 重新启动nginx</h4><pre><code class="ruby">service nginx restart
+</code></pre>
+<h4 id="4-访问页面"><a href="#4-访问页面" class="headerlink" title="4. 访问页面"></a>4. 访问页面</h4><pre><code>upstream frontends &#123;
+    server 127.0.0.1:8080; # MM-Wiki 监听的ip:port
+&#125;
+server &#123;
+    listen      80;
+    server_name wiki.dui zhang.fun www.wiki.duizhang.fun;
+    location / &#123;
+        proxy_pass_header Server;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Scheme $scheme;
+        proxy_pass http://frontends;
+    &#125;
+    # 静态资源交由nginx管理
+    location /static &#123;
+        root        /www/mm-wiki; # MM-Wiki 的根目录
+        expires     1d;
+        add_header  Cache-Control public;
+        access_log  off;
+    &#125;
+&#125;
+</code></pre>
+<h1 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h1><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3><pre><code># ubuntu
+sudo apt-get install git-core
+
+# mac
+brew install git
+</code></pre>
+<h3 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h3><pre><code># ubuntu
+sudo apt-get install npm
+
+# node
+brew install node
+</code></pre>
+<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><pre><code># 安装
+npm install -g hexo-cli
+
+# 初始化
+hexo init wiki
+
+# wiki https://github.com/wujun234/hexo-theme-tree
+git clone https://github.com/wujun234/hexo-theme-tree.git  themes/tree
+
+#修改 hexo 根目录的 _config.yml
+theme: tree
+</code></pre>
+<h4 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h4><pre><code># 新建repository
+https://github.com/new
+
+# 生成SSH添加到GitHub
+git config --global user.name &quot;ywwsxya&quot;
+git config --global user.email &quot;ywwsxya@gmail.com&quot;
+
+# 创建ssh
+ssh-keygen -t rsa -C &quot;ywwsxya@gmail.com&quot;
+
+Your identification has been saved in /Users/mac/.ssh/id_rsa.
+Your public key has been saved in /Users/mac/.ssh/id_rsa.pub.
+
+# 添加进github sshkey
+cat /Users/mac/.ssh/id_rsa.pub
+
+#验证
+ssh -T git@github.com
+
+Hi ywwsxya! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
+</code></pre>
+<h1 id="Joplin"><a href="#Joplin" class="headerlink" title="Joplin"></a>Joplin</h1>
+</div>
+
+
+    <div class="post-guide">
+        <div class="item left">
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2021/11/13/hello-world/">
+                Hello World
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
+
+
+
+	<div id="vcomments"></div>
+
+
+<script>
+	
+		// 评论
+		new Valine({
+			el: '#vcomments',
+			appId: 'uwe9sq0kq1u8Hs5cCQ5KX6Il-gzGzoHsz',
+			appKey: 'yxxoug3pyicaP3djyH6XRD7g',
+			placeholder: '请输入评论',
+			path: window.location.pathname,
+			avatar: 'retro',
+			highlight: false,
+      recordIP: true,
+      enableQQ: true,
+			requiredFields: ['nick','mail']
+		})
+	
+	
+</script>
+	</div>
+	<div id="footer">
+	<p>
+	©2021-<span id="footerYear"></span> 
+	<a href="/">duizhang</a> 
+	
+	
+		|
+		<span id="busuanzi_container_site_pv">
+			pv
+			<span id="busuanzi_value_site_pv"></span>
+		</span>
+		|
+		<span id="busuanzi_container_site_uv"> 
+			uv
+			<span id="busuanzi_value_site_uv"></span>
+		</span>
+	
+	<br>
+	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
+	by <a href="//github.com/wujun234" target="_blank">WuJun</a>
+	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
+	</p>
+</div>
+<script type="text/javascript"> 
+	document.getElementById('footerYear').innerHTML = new Date().getFullYear() + '';
+</script>
+	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+</body>
+</html>
